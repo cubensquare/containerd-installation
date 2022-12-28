@@ -28,7 +28,7 @@ $ sudo tar Cxzvf /usr/local containerd-1.6.14-linux-amd64.tar.gz
 Runc is a standardized runtime for spawning and running containers on Linux according to the OCI specification
 ```bash
 $ wget https://github.com/opencontainers/runc/releases/download/v1.1.3/runc.amd64
-$ install -m 755 runc.amd64 /usr/local/sbin/runc
+$ sudo install -m 755 runc.amd64 /usr/local/sbin/runc
 ```
 
 ## Step 3: Download and install CNI plugins :
