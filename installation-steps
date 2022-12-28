@@ -1,0 +1,18 @@
+# VM instance with Ubuntu 20.04 LTS OS
+
+Step 1 : Download & unpack containerd package
+Step 2 : Install runc
+Step 3 : Download & install CNI plugins
+Step 4 : Configure containerd
+Step 5 : Start containerd service
+
+Step 1 : Download the containerd package
+
+Containerd versions can be found in this location :  https://github.com/containerd/containerd/releases
+
+```bash
+wget https://github.com/containerd/containerd/releases/download/v1.6.14/containerd-1.6.14-linux-amd64.tar.gz
+```
+Unpack : 
+sudo tar Cxzvf /usr/local containerd-1.6.14-linux-amd64.tar.gz
+
